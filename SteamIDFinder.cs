@@ -1,12 +1,12 @@
 ﻿namespace Oxide.Plugins {
 
-    [Info("SteamID Finder", "Wolfleader101", "[0.0.1]")]
+    [Info("SteamID Finder", "Wolfleader101", "0.0.1")]
     [Description("A Command that allows the user to get their SteamID")]
     public class SteamIDFinder : RustPlugin {
 
         // On Plugin Loaded
         void Loaded() {
-            PrintToChat("Plugin");
+            PrintToChat("SteamID Finder Plugin has been Loaded");
         }
 
         [ChatCommand("id")]
